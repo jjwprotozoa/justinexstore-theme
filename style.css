@@ -1,1 +1,66 @@
+/* JUSTINEXSTORE MODERN CSS - OPTIMIZED VERSION */
 
+/* Typography */
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important; color: #2d3748; }
+h1,h2,h3,h4,h5,h6 { font-weight: 600 !important; color: #1a202c !important; }
+
+/* Layout */
+#page_wrapper { max-width: 1200px; background: transparent; }
+.main { background: transparent; margin-top: 30px !important; }
+
+/* Header */
+.header { background: rgba(255,255,255,0.95) !important; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.header .form-search { border-radius: 25px !important; border: 2px solid #e2e8f0 !important; }
+.header .form-search:focus-within { border-color: #667eea !important; }
+
+/* Navigation */
+.navbar-default { background: linear-gradient(90deg, #f8f9fa, #e9ecef) !important; border: none !important; border-radius: 8px; }
+.navbar-nav > li > a { font-weight: 500 !important; color: #4a5568 !important; }
+.navbar-nav > li > a:hover { background-color: #667eea !important; color: #fff !important; }
+
+/* Product Grid */
+.products-grid { display: grid !important; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)) !important; gap: 20px !important; padding: 20px !important; }
+.products-grid li.item { width: auto !important; margin: 0 !important; }
+
+/* Product Cards */
+.product-block { border: 1px solid #e2e8f0 !important; border-radius: 12px !important; box-shadow: 0 2px 8px rgba(0,0,0,0.04) !important; transition: all 0.3s ease !important; background: #fff !important; overflow: hidden !important; }
+.product-block:hover { transform: translateY(-2px) !important; box-shadow: 0 8px 20px rgba(0,0,0,0.1) !important; }
+.product-block-inner { padding: 16px !important; }
+
+/* Buttons */
+.btn-add-to-cart, .btn-styled, #shop_all { background: linear-gradient(135deg, #667eea, #764ba2) !important; border: none !important; border-radius: 8px !important; color: #fff !important; font-weight: 600 !important; transition: all 0.3s ease !important; }
+.btn-add-to-cart:hover, .btn-styled:hover, #shop_all:hover { transform: translateY(-1px) !important; box-shadow: 0 4px 12px rgba(102,126,234,0.3) !important; }
+
+/* Sidebar */
+.sidebar .block { border-radius: 10px !important; border: 1px solid #e2e8f0 !important; box-shadow: 0 2px 4px rgba(0,0,0,0.04) !important; }
+.block .block-title strong { background: #f8f9fa !important; padding: 12px 16px !important; }
+.block .block-content li a { padding: 8px 16px !important; transition: all 0.2s ease !important; }
+.block .block-content li a:hover { background: #f7fafc !important; color: #667eea !important; }
+
+/* Forms */
+input.input-text, select, textarea { border: 2px solid #e2e8f0 !important; border-radius: 6px !important; transition: border-color 0.3s ease !important; }
+input:focus, select:focus, textarea:focus { border-color: #667eea !important; outline: none !important; }
+
+/* Prices */
+.price-box .price { font-size: 18px !important; font-weight: 700 !important; color: #1a202c !important; }
+.special-price { color: #e53e3e !important; }
+
+/* Cart */
+.header-cart .cart_mini_right { background: #667eea !important; color: #fff !important; border-radius: 20px !important; font-weight: 600; }
+
+/* Footer */
+#footer { background: linear-gradient(135deg, #2d3748, #1a202c) !important; color: #e2e8f0 !important; border-radius: 12px 12px 0 0; }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .products-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important; gap: 15px !important; }
+  .col-left { width: 100% !important; margin-bottom: 20px !important; }
+  .col-main { width: 100% !important; }
+}
+
+/* Product Names */
+.product-name a { font-size: 15px !important; font-weight: 500 !important; color: #2d3748 !important; }
+.product-name a:hover { color: #667eea !important; }
+
+/* Availability */
+.availability.in-stock span { color: #48bb78 !important; font-weight: 600 !important; }
